@@ -3,7 +3,7 @@ import React from 'react';
 const Connect = () => {
   return (
     <div>
-      <h2>Connefwfwfwfct</h2>
+      <h2>Connect</h2>
       {/* Add content for Home component */}
     </div>
   );

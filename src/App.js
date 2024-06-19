@@ -34,22 +34,13 @@ export default function App(){
         </button>
       </nav>
       <Routes>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route path='/about'>
-          <About />
-        </Route>
-        <Route path='/resume'>
-          <Resume />
-        </Route>
-        <Route path='/portfolio'>
-          <Portfolio />
-        </Route>
-        <Route path='/connect'>
-          <Connect />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/connect" element={<Connect />} />
       </Routes>
+
     </Router>
   )
 }
